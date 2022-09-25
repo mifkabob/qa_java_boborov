@@ -4,15 +4,6 @@ import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
 public class AnimalTest {
-    @Test
-    public void eatMeatReturnsGetFood() throws Exception {
-        Feline feline = new Feline();
-        String expectedReturn = "[Животные, Птицы, Рыба]";
-        String actualReturn = feline.eatMeat().toString();
-
-        assertEquals("Animal kind is incorrect", expectedReturn, actualReturn);
-
-    }
 
     @Test
     public void getFamilyReturnsFeline() {
